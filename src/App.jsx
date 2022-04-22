@@ -1,11 +1,7 @@
-import MovieGallery from "./components/MovieGallery/index";
+import MovieGallery from './components/MovieGallery/index'
 
 const App = () => {
-  return (
-     <MovieGallery />
-  );
-  
-  
-};
+  return <MovieGallery title="Simpsons" />
+}
 
-export default App;
+export default App
